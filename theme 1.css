@@ -1,13 +1,15 @@
-/* Vencord theme */
+/* Vencord theme fix */
+#app-mount,
+.app-2CXKsg,
+body {
+  background: #ffffff url("https://wimg.rule34.xxx/samples/1563/sample_7859846484eb274d02c3680bbe86dec8.jpg?14491034")
+              center center / cover no-repeat fixed !important;
+}
 
+/* Make Discord panels translucent so the image shows */
 :root {
   --background-primary: transparent !important;
   --background-secondary: transparent !important;
   --background-tertiary: transparent !important;
   --background-floating: rgba(0, 0, 0, 0.6) !important;
-}
-
-body {
-  background: #ffffff url("https://wimg.rule34.xxx/samples/1563/sample_7859846484eb274d02c3680bbe86dec8.jpg?14491034")
-              center center / cover no-repeat fixed !important;
 }
