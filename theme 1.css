@@ -1,10 +1,7 @@
 /**
- * @name Custom Background Theme
- * @description Minimal Vencord theme that applies a background image.
+ * @name Custom Background Theme (hardened)
  */
-
-:root {
-  /* Panels transparent so background shows */
+:root, .theme-dark, .theme-light {
   --background-primary: transparent !important;
   --background-secondary: transparent !important;
   --background-tertiary: transparent !important;
